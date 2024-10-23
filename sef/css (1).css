@@ -1,0 +1,104 @@
+/* Resetiranje defaultnih margina i paddinga */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stilizacija tijela stranice */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: sandybrown;
+    color: #333;
+    line-height: 1.4;
+}
+
+/* Stilizacija zaglavlja */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 21px;
+}
+
+header .logo h1 {
+    font-size: 46px;
+}
+/* Navigacija unutar zaglavlja */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 16px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+/* Stilizacija sekcija */
+section {
+    padding: 21px;
+}
+
+#home {
+    background-image:("<alex.jpg>");
+    padding: 65px;
+    margin: 45px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+#Povijest i položaj {
+    background-color: saddlebrown;
+    color: #fff;
+    padding: 65px;
+    margin: 45px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+#Osnutak grada {
+    background-color:saddlebrown;
+    color: #fff;
+    padding: 60px;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+#Stanovništvo {
+    background-color:saddlebrown;
+    color: #fff;
+    padding: 60px;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+#Turizam {
+    background-color:saddlebrown;
+    color: #fff;
+    padding: 60px;
+    margin: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+#prst {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:saddlebrown;
+    color:#fff;
+    padding: 20px;
+}
